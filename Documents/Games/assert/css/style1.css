@@ -1,0 +1,76 @@
+body{
+    font-family: elephant;
+    background-image:linear-gradient(rgba(0, 0, 0,0.5),rgba(241, 176, 243, 0.5)), url(../img/bg-desktop.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    /* display: flex; */
+    height:100vh;
+    width: 100vw;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.play{
+    height: 2rem;
+    max-width:20%;
+    background-image:url(../img/bg-desktop.svg);
+    color: #fff;
+    border-radius: 2rem;
+    text-align: center;
+    justify-content: center;
+    padding: 1rem;
+    display: flex;
+    box-shadow: 0 0 10px 2px;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    font-size: 1rem;
+}
+.container{
+    height: 15rem;
+    max-width:60%;
+    background-image: url(../img/bg-desktop.svg);
+    background-color: rgb(243, 218, 247);
+    border-radius: 2rem;
+    padding: 1rem;
+    box-shadow: 0 0 20px 5px;
+    margin: auto;
+
+}
+.btn-grid{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 1rem;
+    margin: 20px 0;
+}
+.btn{
+    background-color: rgb(225, 225, 248);
+    border: 1px solid #d6bdf3;
+    border-radius: 1rem;
+    padding: 5px 10px;
+    color: rgb(46, 66, 104);
+    outline: none;
+    /* background-color:  hsl(var(--hue), 100%, 50%); */
+}
+.btn:hover{
+    background-color: rgb(126, 126, 243);
+    border-color: rgb(104, 104, 170);
+
+}
+.start-btn, .next-btn{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+/* .controls{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:1rem;
+    
+} */
+/* .hide{
+    display: none;
+} */
